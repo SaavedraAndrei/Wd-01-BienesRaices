@@ -204,3 +204,114 @@ h4{
 .iconos-caracteristicas li img{
     margin-right: 2rem;
 }
+
+/**INFERIOR**/
+
+.seccion-inferior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-inferior .blog{
+    flex-basis: calc(55%);
+}
+
+.seccion-inferior .testimoniales{
+    flex-basis: calc(37% - 1rem);
+}
+
+.entrada-blog{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+.entrada-blog .imagen{
+    flex-basis: 40%;
+}
+
+.entrada-blog .texto-entrada{
+    flex-basis: calc(60% - 3rem);
+}
+
+.texto-entrada h3{
+    font-size: 2rem;
+    margin: 0;
+    text-decoration: none;
+}
+
+.texto-entrada p{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.texto-entrada a{
+    color: black;
+    text-decoration: none;
+}
+
+.texto-entrada h3::after{
+    content: '';
+    display: block;
+    width: 15rem;
+    height: 0.5rem;
+    background-color: #31b631;
+    margin-top: 1rem;
+}
+
+.texto-entrada span{
+    color: #d67f0e;
+    font-weight: 700;
+}
+/***********/
+
+/**TESTIMONIAL**/
+.testimonial{
+    background-color: #31b631;
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: white;
+    line-height: 4rem;
+    text-align: justify;
+    border-radius: 2rem;
+}
+
+.testimonial p{
+    text-align: right;
+}
+
+.testimonial blockquote::before{
+    content: '';
+    background-image: url(../img/comilla.svg);
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    position: absolute;
+    left: -2rem;
+}
+
+.testimonial blockquote{
+    position: relative;
+    padding-left: 2rem;
+    font-weight: 300;
+}
+/***************/
+/**FOOTER**/
+.site-footer{
+    background-color: black;
+    margin: 0;
+}
+
+.copyright{
+    margin: 0;
+    color: white;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0rem;
+    text-align: center;
+}
+/**********/
