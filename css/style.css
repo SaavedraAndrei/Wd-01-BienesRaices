@@ -370,7 +370,66 @@ h4{
 /**CONTACTO**/
 label{
     display: block;
+    font-size: 1rem;
+    
 }
+
+legend{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+input:not([type="submit"]),
+textarea,
+select{
+    display: block;
+    width: 97%;
+    background-color: #e1e1e1;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 1rem;
+    
+}
+
+input[type="radio"]{
+    width: auto;
+    margin: 0;
+}
+
+
+select{
+    width: 99%;
+}
+
+fieldset p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.contenido-radio{
+    display: flex;
+    justify-content: space-around;
+    max-width: 20rem;
+    align-items: center;
+    
+}
+
+.btn-form{
+    border: none;
+
+}
+
+.btn-form:hover{
+    cursor: pointer;
+}
+
+.btn-final{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
 
 
 /************/
