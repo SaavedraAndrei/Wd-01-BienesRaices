@@ -34,7 +34,7 @@ h4{
 }
 
 .contenedor{
-    max-width: 90rem;
+    max-width: 80rem;
     margin: 0 auto;
 }
 
@@ -366,3 +366,11 @@ h4{
 
 
 /**********/
+
+/**CONTACTO**/
+label{
+    display: block;
+}
+
+
+/************/
